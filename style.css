@@ -1,0 +1,118 @@
+body, html  {
+  font-family: Overpass;
+  color: #FFE7CB;
+  font-size: 18px;
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #FFE7CB;
+  font-family: Chivo;
+}
+
+.container {
+  width: 900px;
+  margin: 60px auto;
+}
+
+
+#foto_juli {
+	width: 200px;
+	border-radius:250px;
+    border:10px solid #BF823B;
+}
+
+.bg-image{
+	background-image: url('images/background.jpg');
+	filter: blur(6px);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%; 	
+}
+
+.banner {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  border-radius:80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+	
+}
+
+.banner h1 {
+  color: #FFE7CB;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: "FFE7CB;
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.btn-orange {
+  background-color: #ECAE65;
+  color: #FFE7CB;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-orange:hover {
+  background-color: #BF823B;
+  color: white;
+}
+
+
+
+
+
+.footer {
+  background: #404042;
+  color: white;
+  padding: 10px 0px;
+}
+
+
+@media (min-width: 300px) {
+
+  #foto_juli {
+	width: 200px;
+}
+
+  
+}
+
+@media (min-width: 700px) {
+
+  #foto_juli {
+	width: 300px;
+}
+
+}
+
+@media (min-width: 1000px) {
+  #foto_juli {
+	width: 400px;
+}
+
+}
